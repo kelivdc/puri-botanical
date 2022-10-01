@@ -28,6 +28,7 @@ function Magnolia() {
                 layout="responsive"
                 width={540}
                 height={680}
+                alt="Gracia"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -55,6 +56,7 @@ function Magnolia() {
                 layout="responsive"
                 width={540}
                 height={680}
+                alt="Magnolia"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -82,6 +84,7 @@ function Magnolia() {
                 layout="responsive"
                 width={549}
                 height={680}
+                alt="Indica"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -109,6 +112,7 @@ function Magnolia() {
                 layout="responsive"
                 width={549}
                 height={680}
+                alt="Chrysta"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -136,6 +140,8 @@ function Magnolia() {
                 layout="responsive"
                 width={549}
                 height={680}
+                alt="Grandis"
+
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

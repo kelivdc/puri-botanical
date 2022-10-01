@@ -26,6 +26,7 @@ function Lavender() {
           <Image
             src="/unit/lavender/a1.png"
             layout="responsive"
+            alt="Tipe A1"
             width={2882}
             height={2720}
           />
@@ -49,6 +50,7 @@ function Lavender() {
         >
           <Image
             src="/unit/lavender/a2.png"
+            alt="Tipe A2"
             layout="responsive"
             width={2875}
             height={2720}
@@ -77,6 +79,7 @@ function Lavender() {
             layout="responsive"
             width={2877}
             height={2720}
+            alt="Tipe B"            
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">

@@ -35,7 +35,7 @@ function Home() {
       </Head>
       <Box pl={2} margin="auto" mt="20px" display="relative">
         <Stack direction="row" justifyContent="space-between">
-          <Image src="/logo.png" width={200} height={35} />
+          <Image src="/logo.png" width={200} height={35} alt="Logo"/>
           <IconButton
             sx={{
               marginRight: "15px",
@@ -108,6 +108,7 @@ function Home() {
               layout="responsive"
               width={2481}
               height={1900}
+              alt="Cluster Puri Botanical"
             />
           </Grid>
         </Grid>
@@ -120,6 +121,7 @@ function Home() {
               layout="responsive"
               width={2481}
               height={1900}
+              alt="Tentang Puri Botanical"
             />
           </Grid>
           <Grid item xs={12} md={6}>
