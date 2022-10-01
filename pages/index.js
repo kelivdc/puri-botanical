@@ -28,6 +28,7 @@ import Lavender from "../components/Lavender";
 import Magnolia from "../components/Magnolia";
 import CssBaseline from "@mui/material/CssBaseline";
 import NavBottom from "../components/NavBottom";
+import Kavling from "../components/Kavling";
 
 function Home() {
   const [mnuDrawer, setMnuDrawer] = useState(false);
@@ -43,7 +44,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Puri Botanical - Rumah 2 lantai - Jakarta Barat</title>
+        <title>Puri Botanical - Rumah 2 lantai mulai dari 1,7M an - Jakarta Barat</title>
       </Head>
       <Box pl={2} margin="auto" mt="20px" display="relative">
         <CssBaseline />
@@ -169,6 +170,8 @@ function Home() {
         <Lavender />
         <hr />
         <Magnolia />
+        <hr />
+        <Kavling />
       </Box>
       <Footer />
       <NavBottom />      

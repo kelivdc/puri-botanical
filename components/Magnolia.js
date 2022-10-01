@@ -5,13 +5,16 @@ import React from "react";
 function Magnolia() {
   return (
     <>
-      <Typography variant="h5" color="#ccc" align="center" p={4}>
+      <Typography variant="h5" color="#ccc" align="center" >
         Cluster MAGNOLIA
+      </Typography>
+      <Typography variant="h6" color="#ddd" align="center" m={4}>
+        Mulai dari 3,6 M an
       </Typography>
       <Box
         margin={{ xs: "0", md: "auto" }}
         sx={{
-          marginTop: "20px",
+          marginTop: "20px", 
           maxWidth: "80%",
         }}
       >
