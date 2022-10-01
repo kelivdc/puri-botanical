@@ -2,7 +2,7 @@ import React from 'react'
 
 function Index() {
   return (
-    <div>Index</div>
+    <h1>Hello World</h1>
   )
 }
 
