@@ -1,12 +1,17 @@
 import {
+  BottomNavigation,
+  BottomNavigationAction,
   Button,
   Divider,
   Drawer,
+  Fab,
   Grid,
   IconButton,
   List,
   ListItem,
   ListItemButton,
+  Paper,
+  Snackbar,
   Stack,
   Typography,
 } from "@mui/material";
@@ -15,10 +20,14 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Close, WhatsApp } from "@mui/icons-material";
+import {
+  Close,
+} from "@mui/icons-material";
 import Footer from "../components/Footer";
 import Lavender from "../components/Lavender";
 import Magnolia from "../components/Magnolia";
+import CssBaseline from "@mui/material/CssBaseline";
+import NavBottom from "../components/NavBottom";
 
 function Home() {
   const [mnuDrawer, setMnuDrawer] = useState(false);
@@ -34,8 +43,9 @@ function Home() {
         <title>Puri Botanical - Rumah 2 lantai - Jakarta Barat</title>
       </Head>
       <Box pl={2} margin="auto" mt="20px" display="relative">
+        <CssBaseline />
         <Stack direction="row" justifyContent="space-between">
-          <Image src="/logo.png" width={200} height={35} alt="Logo"/>
+          <Image src="/logo.png" width={200} height={35} alt="Logo" />
           <IconButton
             sx={{
               marginRight: "15px",
@@ -162,8 +172,9 @@ function Home() {
         <Lavender />
         <hr />
         <Magnolia />
-      </Box>      
+      </Box>
       <Footer />
+      <NavBottom />      
     </>
   );
 }
