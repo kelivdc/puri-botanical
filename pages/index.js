@@ -46,14 +46,7 @@ function Home() {
         <CssBaseline />
         <Stack direction="row" justifyContent="space-between">
           <Image src="/logo.png" width={200} height={35} alt="Logo" />
-          <IconButton
-            sx={{
-              marginRight: "15px",
-            }}
-            onClick={handleDrawerOpen}
-          >
-            <MenuIcon />
-          </IconButton>
+         
         </Stack>
       </Box>
       <Drawer anchor="right" open={mnuDrawer} onClose={handleDrawerClose}>
