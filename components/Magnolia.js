@@ -1,5 +1,4 @@
 import { Box, Card, CardContent, Chip, Grid, Typography } from "@mui/material";
-import { Stack } from "@mui/system";
 import Image from "next/image";
 import React from "react";
 import Divider from "@mui/material/Divider";
