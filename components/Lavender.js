@@ -20,7 +20,7 @@ function Lavender() {
       >
         <Card
           sx={{
-            minWidth: "300px",
+            minWidth: "300px"
           }}
         >
           <Image
@@ -45,7 +45,7 @@ function Lavender() {
         </Card>
         <Card
           sx={{
-            minWidth: "300px",
+            minWidth: "300px"
           }}
         >
           <Image
@@ -63,7 +63,6 @@ function Lavender() {
               <p>
                 5 x 12 m<sup>2</sup>
               </p>
-
               <p>2 Bedroom</p>
               <p>2+1 Bathroom</p>
             </Typography>
@@ -71,7 +70,7 @@ function Lavender() {
         </Card>
         <Card
           sx={{
-            minWidth: "300px",
+            minWidth: "300px"
           }}
         >
           <Image
