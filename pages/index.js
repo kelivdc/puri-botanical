@@ -161,7 +161,7 @@ function Home() {
         </Typography>
         <Lavender />
         <hr />
-        {/* <Magnolia /> */}
+        <Magnolia />
       </Box>      
       <Footer />
     </>
