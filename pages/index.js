@@ -37,6 +37,9 @@ function Home() {
   const handleDrawerOpen = () => {
     setMnuDrawer(true);
   };
+  const handleWA = () => {
+    location.replace('https://wa.me/6281222226880?text=Halo..Marketing Puri Botanical, saya berminat dengan produk ini, boleh info lengkap? Terima kasih')
+  }
   return (
     <>
       <Head>
@@ -151,6 +154,7 @@ function Home() {
                 disableElevation
                 size="large"
                 color="success"
+                onClick={handleWA}
               >
                 Hubungi
               </Button>
