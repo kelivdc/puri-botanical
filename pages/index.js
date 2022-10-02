@@ -19,7 +19,6 @@ import { Box } from "@mui/system";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
 import {
   Close, WhatsApp,
 } from "@mui/icons-material";
@@ -44,7 +43,8 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Puri Botanical - Rumah 2 lantai mulai dari 1,7M an - Jakarta Barat</title>
+        <title>Puri Botanical cluster Lavender Magnolia - Rumah 2 lantai mulai dari 1,7M an - Jakarta Barat</title>
+        <meta name="description" content="Dijual Puri Botanical Lavender Magnolia Residence di Jakarta Barat, DKI Jakarta. Harga mulai dari Rp. 1,7 M-an"/>
       </Head>
       <Box pl={2} margin="auto" mt="20px" display="relative">
         <CssBaseline />
