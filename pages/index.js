@@ -21,7 +21,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
-  Close,
+  Close, WhatsApp,
 } from "@mui/icons-material";
 import Footer from "../components/Footer";
 import Lavender from "../components/Lavender";
@@ -156,6 +156,7 @@ function Home() {
                 size="large"
                 color="success"
                 onClick={handleWA}
+                endIcon={<WhatsApp />}
               >
                 Hubungi
               </Button>
